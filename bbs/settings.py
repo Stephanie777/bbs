@@ -19,7 +19,6 @@ LOGIN_REDIRECT_URL = reverse_lazy('dashboard')
 LOGIN_URL = reverse_lazy('login')
 LOGOUT_URL = reverse_lazy('logout')
 
-#璁剧疆杩欎釜绫荤敤鏉ュ彂閫乪-mails銆�
 EMAIL_BACKEND = EmailBackend
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
